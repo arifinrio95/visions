@@ -12,8 +12,12 @@ openai.api_key = st.secrets['openai_key']
 # Function to encode image to base64
 def encode_image_to_base64(image):
     buffered = BytesIO()
+    # Convert RGBA to RGB
+    if image.mode == 'RGBA':
+        image = image.convert('RGB')
     image.save(buffered, format="JPEG")
     return base64.b64encode(buffered.getvalue()).decode('utf-8')
+
 
 # Function to get image description from GPT-4 Vision API
 def get_image_description(base64_image):
