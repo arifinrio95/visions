@@ -47,7 +47,7 @@ def get_image_description(base64_image):
             ]
           }
         ],
-        "max_tokens": 3000
+        "max_tokens": 4096
     }
 
     response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
