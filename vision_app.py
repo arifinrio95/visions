@@ -34,7 +34,7 @@ def get_image_description(base64_image):
             "content": [
               {
                 "type": "text",
-                "text": "Ini adalah foto kondisi sebuah spot/jalan. Saya ingin kamu menganalisa potensi jika saya memasang iklan disini. Analisa sekreatif dan selengkap mungkin dari yang bisa dilihat secara visual, misal keramaian jalan, lebar jalan, adanya trotoar yang mungkin ramai, berapa jumlah kendaraan, berapa jumlah orang, dan lainnya tambahkan lagi. Berikan rating dari 0-5 terkait potensinya, tampilkan ini dengan ukuran besar di paling atas sebelum paragraf dimulai. Buat dalam beberapa paragraf berbentuk report/laporan. Mainkan bold atau italic pada textnya untuk saya show menggunakan streamlit (st.write)."
+                "text": "Ini adalah foto kondisi sebuah spot/jalan. Saya ingin kamu menganalisa potensi jika saya memasang iklan disini. Analisa sekreatif dan selengkap mungkin dari yang bisa dilihat secara visual, misal keramaian jalan, lebar jalan, adanya trotoar yang mungkin ramai, berapa jumlah kendaraan, berapa jumlah orang, dan lainnya tambahkan lagi. Berikan rating dari 0-5 terkait potensinya misalnya '3.5/5', tampilkan ini dengan ukuran besar di paling atas sebelum paragraf dimulai. Buat dalam beberapa paragraf berbentuk report/laporan. Mainkan bold atau italic pada textnya untuk saya show menggunakan streamlit (st.write)."
               },
               {
                 "type": "image_url",
