@@ -65,7 +65,7 @@ def get_image_description(base64_image):
 # Function to generate an image using DALL·E 3 API with the description
 
 # Streamlit app
-st.title('Spot Visual Analyzer)
+st.title('Spot Visual Analyzer')
 st.write("Saya akan membantu kamu menganalisa potensi penempatan iklan dari foto lokasi yang kamu berikan.")
 
 # File uploader allows user to add their own image
