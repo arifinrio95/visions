@@ -27,7 +27,9 @@ def get_image_description(base64_image):
     }
 
     payload = {
-        "model": "gpt-4-vision-preview",
+        # "model": "gpt-4-vision-preview",
+        "model": "gpt-4-1106-preview",
+         
         "messages": [
           {
             "role": "user",
